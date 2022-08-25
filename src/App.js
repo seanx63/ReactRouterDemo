@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route} from 'react-router-dom'
+import Home from './components/Home'
+import Clojure from './components/Clojure'
+import Scala from './components/Scala'
+import Groovy from './components/Groovy'
+import Kotlin from './components/Kotlin'
+import Java from './components/Java'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+return <Routes>
+  <Route path="/" element={<Home/>}></Route>
+  <Route path="/clojure" element={<Clojure/>}></Route>
+  <Route path="/scala" element={<Scala/>}></Route>
+  <Route path="/groovy" element={<Groovy/>}></Route>
+  <Route path="/kotlin" element={<Kotlin/>}></Route>
+  <Route path="/java" element={<Java/>}></Route>
+</Routes>
 }
 
 export default App;
