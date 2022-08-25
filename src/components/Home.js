@@ -30,11 +30,15 @@ const Home = () => {
       <a
         title="Michelle Ridomi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons"
         href="https://commons.wikimedia.org/wiki/File:JvmSpec7.png"
+        target="_blank"
+        rel="noreferrer"
       >
         <img
           width="512"
           alt="JvmSpec7"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/JvmSpec7.png/512px-JvmSpec7.png"
+          target="_blank"
+          rel="noreferrer"
         ></img>
       </a>
     </div>

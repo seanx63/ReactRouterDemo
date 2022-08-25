@@ -8,15 +8,19 @@ const Clojure = () => {
       <a
         title="Original: Pykello Vector:  Tom Hickey and Rich Hickey, Public domain, via Wikimedia Commons"
         href="https://commons.wikimedia.org/wiki/File:Clojure_logo.svg"
+        target="_blank"
+        rel="noreferrer"
       >
         <img
           width="256"
           alt="Clojure logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.svg.png"
+          target="_blank"
+          rel="noreferrer"
         />
       </a>
       <h2>Clojure</h2>
-      <a href="https://clojure.org/" class="ctext">
+      <a href="https://clojure.org/" class="ctext" target="_blank" rel="noreferrer">
         Official website
       </a>
       <br />
